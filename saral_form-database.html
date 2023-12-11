@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Saral Tri Asfiyantin</title>
+	<link rel="stylesheet" type="text/css" href="css/saral_style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+
+<!-- header -->
+	<div class="medsos">
+		<div class="container">
+		    <ul>
+ 				<li><a href="https://www.facebook.com/saraltri.asfiyantin.3?mibextid=ZbWKwL"><i class="fab fa-facebook"></i></a></li>
+				<li><a href="https://instagram.com/astinsaral?igshid=NGVhN2U2NjQ0Yg=="><i class="fab fa-instagram"></i></a></li>
+				<li><a href="https://youtube.com/@astinsaral9305?si=rZari7nZfuXp0fe5"><i class="fab fa-youtube"></i></a></li>
+			</ul>
+		</div>
+	</div>
+	<header>
+		<div class="container">
+		<h1><a href="saral_home.html">ASTIN SHOP</a></h1>
+		<ul>
+			<li class="active"><a href="saral_home.html">HOME</a></li>
+			<li><a href="saral_about.html">PRODUCT</a></li>
+			<li><a href="saral_contact.html">CONTACT</a></li>
+		</ul>
+		</div>
+	</header>
+	
+<br>
+<br>
+<br>
+<br>
+
+
+<!--membuat form-->
+<div class="form">
+<center>
+<h1>ORDERING</h1>
+
+<form action="saral_database.php" method="POST">
+
+<fieldset>
+<div class="fiel">
+<table>
+
+<tr>
+<td>Nama</td>
+<td>:</td>
+<td><input type="text" id="nama" name="nama"></td>
+</tr>
+
+
+<tr>
+<td><label>Tanggal Lahir</label></td>
+<td>:</td>
+<td><input type="date" id="tanggallahir" name="tanggallahir"/>
+</tr>
+
+<tr>
+<td>Jenis Kelamin</td>
+<td>:</td>
+<td><input type="radio" name='jeniskelamin' value='lakilaki'/>Laki-Laki
+<input type="radio" name='jeniskelamin' value='perempuan'/>Perempuan
+</td>
+</tr>
+
+<tr>
+<td>Asal</td>
+<td>:</td>
+<td><select id="asal" name="asal">
+<option>*SELECT ASAL*</option>
+<option>Mataram</option>
+<option>Lombok Barat</option>
+<option>Lombok Tengah</option>
+<option>Lombok Timur</option>
+<option>KLU</option>
+<option>Sumbawa Besar</option>
+<option>Sumbawa Barat</option>
+<option>Bima</option>
+<option>Dompu</option>
+</select></td>
+</tr>
+
+<tr>
+<td>Email</td>
+<td>:</td>
+<td><input type="text" id="email" name="email"></td>
+</tr>
+
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><input type="submit" name="submit" value="Save"/>
+<input type="reset" name="reset" value="Cancel" /></td>
+</tr>
+
+</table>
+</div>
+</fieldset>
+</form>
+</center>
+</div>
+
+
+	<!-- footer -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+	<footer>
+		<div class="container">
+			<small> Copyright &copy; 2023 - Saral Tri Asfiyantin, All Rights Reserved.</small>
+		</div>
+	</footer>
+</body>
+</html>
